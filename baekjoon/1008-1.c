@@ -2,9 +2,9 @@
 
 int main()
 {
-    int A, B;
+    double A, B;
 
-    scanf("%d %d", &A, &B);
-    printf("%.9f", (double) A / B);
+    scanf("%lf %lf", &A, &B);
+    printf("%.9f", A / B);
     return 0;
 }
