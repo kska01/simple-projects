@@ -71,8 +71,8 @@ int main()
     printf("-------------------------------------\n");
     for(i = 0; i < 3; i++)
     {
-        printf("%s  %2d   %2d   %2d  %3d  %3d   %d등\n", name[rank[i]], korean[rank[i]], english[rank[i]], 
-        math[rank[i]], total[rank[i]], total[rank[i]] / 3, i + 1);
+        printf("%s  %2d   %2d   %2d  %3d  %3d   %d등\n", name[rank[i]], korean[rank[i]], 
+        english[rank[i]], math[rank[i]], total[rank[i]], total[rank[i]] / 3, i + 1);
     }
     return 0;  
 }
