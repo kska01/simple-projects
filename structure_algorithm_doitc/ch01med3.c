@@ -5,15 +5,15 @@ int med3(int a, int b, int c)
     if(a >= b)
         if(b >= c)
             return b;
-        else if (a <= c)
+        else if(a <= c)
             return a;
         else
             return c;
-    else if (a > c)
+    else if(a > c)
         return a;
-    else if (b > c)
+    else if(b > c)
         return c;
-    else 
+    else
         return b;
 }
 
