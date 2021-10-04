@@ -4,7 +4,7 @@ fun main() {
     retFun()
 }
 
-inlin fun inlineLambda(a: Int, b: Int, out: (Int, Int) -> Unit) {
+inline fun inlineLambda(a: Int, b: Int, out: (Int, Int) -> Unit) {
     out(a, b)
 }
 
